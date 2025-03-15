@@ -13,6 +13,7 @@ body{
 }
 .backgroud{
     width: 500px;
+    box-shadow: 0px 3px 3px rgb(147, 147, 147);
 }
 .img{
     cursor:pointer;
@@ -46,18 +47,19 @@ body{
     }
     .img{
         width: 60px;
-        height: 60px;
     }
     .container_icons{
-        bottom: 160px;
-        position: absolute;
         display:flex;
         justify-content: center; /* Centraliza horizontalmente */
         align-items: center; /* Centraliza verticalmente */
         gap: -15px; /* Espaço entre as divs */
-        margin: 20px;
+        margin: 8px;
+        transform: translate(0%, 100%);
     }
     .img1{
-        width: 70px;
+        width: 75px;
+    }
+    .container{
+        position: absolute;
     }
 }
