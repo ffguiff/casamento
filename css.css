@@ -49,12 +49,8 @@ body{
         width: 60px;
     }
     .container_icons{
-        display:flex;
-        justify-content: center; /* Centraliza horizontalmente */
-        align-items: center; /* Centraliza verticalmente */
-        gap: -15px; /* Espaço entre as divs */
+        transform: translate(0%,100%);
         margin: 8px;
-        transform: translate(0%, 100%);
     }
     .img1{
         width: 75px;
