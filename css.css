@@ -49,7 +49,7 @@ body{
         height: 60px;
     }
     .container_icons{
-        bottom: 130px;
+        bottom: 160px;
         position: absolute;
         display:flex;
         justify-content: center; /* Centraliza horizontalmente */
