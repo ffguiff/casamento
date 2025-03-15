@@ -1,0 +1,63 @@
+* {
+    margin: 10px; /* Remove margens padrão */
+    padding: 0; /* Remove paddings padrão */
+    box-sizing: border-box; /* Faz com que padding e border não aumentem o tamanho do elemento */
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+    line-height: 1.6; /* Define um espaçamento entre linhas legível */
+    text-decoration: none; /* Remove sublinhado de links */
+    list-style: none; /* Remove marcadores de listas */
+}
+body{
+    margin:0;
+    text-align: center;
+}
+.backgroud{
+    width: 500px;
+}
+.img{
+    cursor:pointer;
+    width: 60px;
+}
+.img1{
+    cursor:pointer;
+    width: 74px;
+}
+.container_icons{
+    bottom: 215px;
+    position: absolute;
+    display:flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    gap: -15px; /* Espaço entre as divs */
+    margin-left: 40%;
+}
+/* Mostrar setas apenas em dispositivos móveis */
+@media (max-width: 767px) {
+    .backgroud{
+        margin: 0;
+        width: 350px;
+    }
+    img{
+        width: 100%; /* Faz as imagens ocuparem toda a largura do contêiner */
+        height: 100%; /* Faz as imagens ocuparem toda a altura do contêiner */
+        top:0;
+        left:0;
+        object-fit: cover;
+    }
+    .img{
+        width: 60px;
+        height: 60px;
+    }
+    .container_icons{
+        bottom: 130px;
+        position: absolute;
+        display:flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        gap: -15px; /* Espaço entre as divs */
+        margin: 20px;
+    }
+    .img1{
+        width: 70px;
+    }
+}
