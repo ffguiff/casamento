@@ -5,7 +5,7 @@ function pix(){
     window.open("https://nubank.com.br/cobrar/oqgdx/67d4d527-4901-47d5-8c97-57244533e701")
 }
 function presente(){
-    window.open("https://cha-de-casa-nova-eqjn.listaideal.com.br/pt")
+    window.open("https://lista.havan.com.br/Convidado/ItensListaPresente/824349")
 }    
 function whatsapp(){
     window.open("https://api.whatsapp.com/send?phone=%205562994513329&text=%2AConfirmo+minha+presen%C3%A7a%21%F0%9F%A5%B3%2A")
